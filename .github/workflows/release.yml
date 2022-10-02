@@ -3,7 +3,7 @@ name: Release My Image
 on:
   push:
     tags:
-      - "*.*.*"
+      - 'v*.*.*'
 
 jobs:
   release:
